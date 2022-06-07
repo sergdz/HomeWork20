@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input id="input__listName" type="text" placeholder="Название списка">
+    <input id="input__author" type="text" placeholder="Автор списка">
+    <input id="input__shop" type="number" placeholder="Количество пунктов в списке">
+    <input id="button__shop" type="submit" value="Добавить">
+    <div class="wrapper">
+        <input id="input__title" type="text" placeholder="название товара">
+        <input id="input__amount" type="number" placeholder="количество">
+        <select name="select__unit" id="input__unit">
+            <option value="">---Выберите единицу измерения</option>
+            <option value="килограмм">килограмм</option>
+            <option value="литры">литры</option>
+            <option value="грамм">грамм</option>
+            <option value="пачек">пачек</option>
+            <option value="штуки">штуки</option>
+        </select>
+        <input id="input__button" type="submit" value="Добавить">
+        <h4></h4>
+        <div class="wrapper__item">
+        </div>
+        <input id="input__id" placeholder="введите id товара" type="text">
+        <input id="input__delete" type="submit" value ="Удалить товар">
+    </div>
+    <script src="./ShoppingList.js"></script>
+    <script src="./ListItem.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
